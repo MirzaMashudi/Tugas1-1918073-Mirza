@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pertemuan1_Intent">
         <activity
+            android:name=".Segititga"
+            android:exported="true" />
+        <activity
+            android:name=".Segitiga"
+            android:exported="true"
+            android:label="@string/title_activity_segitiga"
+            android:theme="@style/Theme.Pertemuan1_Intent.NoActionBar" />
+        <activity
             android:name=".Biodata"
             android:exported="true" />
         <activity

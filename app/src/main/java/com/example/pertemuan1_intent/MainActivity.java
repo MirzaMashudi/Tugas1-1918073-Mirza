@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Intent a = new Intent(MainActivity.this, Biodata.class);
         startActivity(a);
     }
+    public void segitiga(View view){
+        Intent a = new Intent(MainActivity.this, Segititga.class);
+        startActivity(a);
+    }
 }
